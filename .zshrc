@@ -119,7 +119,7 @@ fi
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 #eval "$(starship init zsh)"
-
+export CONDA_AUTO_ACTIVATE_BASE=false
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/n1c0/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
