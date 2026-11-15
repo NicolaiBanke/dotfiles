@@ -8,6 +8,10 @@ return {
           "ruff_organize_imports",
           "ruff_format",
         },
+        html = {
+          "prettier",
+        },
+        css = { "prettier" },
       },
     },
   },
